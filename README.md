@@ -3,7 +3,10 @@ Here's an assignment from my client-side scripting class where I earned how to u
 
 [Click this link](https://reecevela.github.io/JS-Carousel-HW-Assignment/) to be taken to my site!
 
-Take a look below to see an example of my code as well!
+Take a look below to see a snippet of my code as well!
+
+In this portion specifically, I had an issue where multiple animations could be running at the same time if the user kept pressing the button before it was finished. I added the flag variable of `transitioning` so that the animation would only be able to be re-ran after it was reset at the very end of the second animation.
+
 
 ```
 let transitioning = false;
